@@ -1,0 +1,92 @@
+:root {
+  --text-font-family: "Roboto", sans-serif;
+  --header-font-family: "Raleway", sans-serif;
+  --iris-color: #4d5ae5;
+  --navy-blue-color: #2e2f42;
+}
+
+/*Global syles*/
+body {
+  margin: 0;
+  font-family: var(--text-font-family);
+}
+
+button {
+  font-family: var(--text-font-family);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 calc((100vw - 1200px) / 2);
+  height: 72px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+address {
+  margin: left;
+}
+
+.nav-link:hover {
+  color: var(--iris-color);
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  cursor: pointer;
+}
+
+section.hero-content {
+  height: 600px;
+  background-color: var(--navy-blue-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.hero-content {
+  color: #fff;
+  text-align: center;
+  width: 496px;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+button.hero-content {
+  padding: 16px 32px 16px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--iris-color);
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+.web {
+  color: var(--iris-color);
+}
